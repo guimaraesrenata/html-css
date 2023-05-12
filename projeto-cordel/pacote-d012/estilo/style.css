@@ -28,6 +28,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: 'Passion One', cursive;
+    font-size: 7vw;
 }
 
 header > p {
@@ -51,6 +52,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: 'Sriracha', cursive;
+    font-size: 3vw;
 }
 
 section.normal {
@@ -64,8 +66,9 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgb(24, 22, 22);
+    padding: 5px;
 }
 
 footer {
