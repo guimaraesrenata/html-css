@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+</head>
+<body>
+    <header>
+        <h1>Criando Oncinhas</h1>
+        <h2>Serviço de Catsitter</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Quem somos</a>
+        <a href="agenda.html">Agenda</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <main>
+        <h1>Agende o seu atendimento:</h1>
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Seu nome" autocomplete="name">
+            </p>
+
+            <p>
+                <label for="iemail">Email para contato:</label>
+                <input type="email" name="email" id="iemail" required placeholder="email@gmail.com">
+            </p>
+
+            <p>
+                <label for="itel">Telefone para contato:</label>
+                <input type="tel" name="tel" id="itel" min="11" max="13" required placeholder="Seu telefone">
+            </p>
+
+            <p>
+                <label for="igato">Nome dos gatos</label>
+                <input type="text" name="gato" id="igato" required maxlength="30" placeholder="Nome dos gatinhos" autocomplete="gato">
+            </p>
+
+            <p>
+                <label for="iage">Idade dos gatos:</label>
+                <input type="number" name="iage" id="iage" required min="1" max="30" value="1">
+            </p>
+
+            <p>
+                <label for="inum">Quantos gatos são:</label>
+                <input type="number" name="num" id="inum" min="1" max="10" value="3" required>
+            </p>
+
+            <p>
+                <label for="idata">Data de início:</label>
+                <input type="date" name="Data" id="idata" required>
+            </p>
+
+            <p>
+                <label for="ifin">Data de termino:</label>
+                <input type="date" name="fin" id="ifin" required>
+            </p>
+
+            <p>
+                <label for="ineed">Possui alguma necessidade especial (ex: dar algum medicamento):</label>
+                <input type="checkbox" name="need" id="ineed">
+            </p>
+
+            <p>
+                <label for="iou">Qual:</label>
+                <input type="text" name="ou" id="iou">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+
+        <p>Aguarde o retorno em até 48 horas (dias úteis).</p>
+    </main>
+</body>
+</html>
