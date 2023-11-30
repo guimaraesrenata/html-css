@@ -93,7 +93,19 @@ img.contato {
 
 img.sobre {
     border-radius: 10%;
-    width: 30%;
+    margin-left: -0.9%;
+}
+
+.isobre {
+    display: flex;
+    flex-direction: row;
+}
+
+.isobre p {
+    width: 55vw;
+    margin-left: -25%;
+    margin-top: 7.8%;
+    text-align: justify;
 }
 
 p#agenda {
